@@ -46,18 +46,17 @@ namespace Tarea1
 					msg = "Excelente";
 					comision = .1;
 					break;
-                case >= 20000:
-                    msg = "Aceptable";
-					msg = "Excelente";
-                    comision = .07;
-                    break;
-                case >= 0:
-                    msg = "Bajo";
+			        case >= 20000:
+			                msg = "Aceptable";
+                    			comision = .07;
+                    			break;
+                		case >= 0:
+                    			msg = "Bajo";
 					comision = 0;
-                    break;
+                   			 break;
 				default:
 					break;
-            }
+            		}
 
 			// Se eimprime el mensaje concadenado por el signo +
 
@@ -67,18 +66,18 @@ namespace Tarea1
 
 			Console.WriteLine("Total de ventas: $" + ventas);
 
-            // se concadena texto con la comision multiplicada por 100
-
-            Console.WriteLine("Comision: "+ (comision*100) + "%");
-
-            // se concadena texto con las ventas multiplicada por la comision
-
-            Console.WriteLine("Comision Obtenida: $" + (ventas*comision));
+		        // se concadena texto con la comision multiplicada por 100
+		
+		        Console.WriteLine("Comision: "+ (comision*100) + "%");
+		
+		        // se concadena texto con las ventas multiplicada por la comision
+		
+		        Console.WriteLine("Comision Obtenida: $" + (ventas*comision));
 
 			// se lee tecla para terminar
 
 			Console.ReadKey();
-        }
-    }
+        	}
+    	}
 }
 
