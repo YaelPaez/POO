@@ -39,23 +39,23 @@ namespace Tarea1
 				case "excelente":
 					Console.WriteLine("Wow, es asombroso, sigue asi!");
 					break;
-                case "bueno":
-                    Console.WriteLine("Vamos! Tu puedes lograr mas");
+                		case "bueno":
+                    			Console.WriteLine("Vamos! Tu puedes lograr mas");
 					break;
-                case "regular":
-                    Console.WriteLine("Vas bien, solo esfuerzate un poco mas");
-                    break;
-                case "malo":
-                    Console.WriteLine("Con Esfuerso lo lograras, no te rindas!");
+                		case "regular":
+                    			Console.WriteLine("Vas bien, solo esfuerzate un poco mas");
+                    			break;
+                		case "malo":
+                    		Console.WriteLine("Con Esfuerso lo lograras, no te rindas!");
 					break;
 				default:
 					Console.WriteLine("Disculpa, no te entendi");
 					break;
-            }
+            		}
 
 			Console.ReadKey();
 
-        }
+        	}
 	}
 }
 
